@@ -3,3 +3,6 @@ inherit_from:
 
 AllCops:
   TargetRubyVersion: 2.4
+
+Layout/RescueEnsureAlignment:
+  Enabled: false # Reenable once https://github.com/rubocop-hq/rubocop/issues/6918 is fixed
